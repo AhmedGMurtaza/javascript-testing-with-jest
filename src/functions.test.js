@@ -20,8 +20,9 @@ test('Add 2 + 7 toEqual 9', () => {
 // toBeFalsy matches any thing that is false
 
 // IMPORTANT
-// .toBe must be used for Primitive data types
-// .toEqual must be used for Object/Array data types
+// .toBe must be used for Primitive data types as they 
+// are immutable and has exact values 
+// .toEqual should be used for Object/Array data types
 
 
 // .toBeNull
